@@ -27,7 +27,7 @@ export default function Results({ userInput }) {
 
             return (
               <tr key={x.year}>
-                <td>{formatter.format(x.year)}</td>
+                <td>{x.year}</td>
                 <td>{formatter.format(x.valueEndOfYear)}</td>
                 <td>{formatter.format(x.interest)}</td>
                 <td>{formatter.format(totalIntesrest)}</td>
